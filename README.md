@@ -1,4 +1,4 @@
-<img src="https://nodejs.org/static/images/logo.svg" bgcolor="teal">
+<img src="./node.png" bgcolor="teal">
 
 # Node Js - Server Side Language 
 

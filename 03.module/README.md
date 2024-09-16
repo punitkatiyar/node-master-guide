@@ -1,6 +1,6 @@
 # Module :
 
-fs (File System)
+**fs (File System)**
 
 - Used to interact with the file system, like reading, writing, and updating files.
 
@@ -35,6 +35,8 @@ fs (File System)
 **zlib**
 
 - Provides compression and decompression functionality for data using Gzip, Deflate, and other algorithms.
+
+<hr>
 
 
 

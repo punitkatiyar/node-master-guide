@@ -12,9 +12,9 @@
 
 <hr>
 
-## Node Basic Setup and test
+## Start Node Js And ES6
 
-- **Install Node.js: Go to the official Node.js website at https://nodejs.org and download the appropriate version for your operating system. Follow the installation instructions to install Node.js.**
+**Install Node.js: Go to the official Node.js website at https://nodejs.org and download the appropriate version for your operating system. Follow the installation instructions to install Node.js.**
 
 > JavaScript And ES5 and ES6
 

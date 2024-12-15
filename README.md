@@ -48,3 +48,12 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+
+## NPM Solution
+
+> Set-ExecutionPolicy RemoteSigned
+
+> Set-ExecutionPolicy Unrestricted
+
+> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned -Force
+

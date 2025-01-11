@@ -14,5 +14,6 @@
 
 - **WebAssembly:** The Node.js team is exploring ways to improve performance by integrating with WebAssembly, which is a low-level binary format that can be executed in modern web browsers.
 
-- **Better Support for Microservices:** Node.js is often used in microservice architectures, and the Node.js team is working on providing better support for microservices by improving the performance of the underlying infrastructure.
+- **Better Support for Microservices:** Node.js is often used in microservice architectures, and the Node.js team is working on providing better support for microservices by improving the performance of the underlying infrastructure
 
+- nodemon

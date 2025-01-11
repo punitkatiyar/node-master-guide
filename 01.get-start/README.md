@@ -17,3 +17,5 @@
 - **Better Support for Microservices:** Node.js is often used in microservice architectures, and the Node.js team is working on providing better support for microservices by improving the performance of the underlying infrastructure
 
 - nodemon
+
+- dotenv

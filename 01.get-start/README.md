@@ -18,6 +18,43 @@ Before diving into Node.js, ensure you have a basic understanding of the followi
 
 <hr>
 
+## 2. Learn Node.js Core Concepts
+
+Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to run JavaScript on the server side to build scalable and fast applications.
+
+### Core Topics to Master:
+#### 1. Node.js Basics
+- Installing Node.js and Using Node REPL
+- Running JavaScript Files with node
+- The Node.js Event Loop
+- Global Objects (__dirname, __filename, process)
+- Understanding require() and ES Modules
+
+#### 2. File System (fs) Module
+- Reading and Writing Files (Sync vs. Async)
+- Creating, Deleting, and Renaming Files
+- Working with Directories
+
+#### 3. Event-Driven Programming
+- The events Module
+- Creating and Listening to Events
+
+####4. HTTP Module
+- Creating a Simple HTTP Server
+- Handling HTTP Requests and Responses
+- Working with Query Parameters and POST Data
+
+5. Streams and Buffers
+What are Streams? (Readable, Writable, Duplex)
+Piping Streams (e.g., Reading a File and Sending It as a Response)
+Buffers and Binary Data
+6. Path and OS Modules
+Manipulating File Paths (path Module)
+Accessing System Information (os Module)
+7. Process Management
+Understanding process.argv for CLI Arguments
+Managing Environment Variables (process.env)
+
   
 
 
@@ -45,38 +82,7 @@ Before diving into Node.js, ensure you have a basic understanding of the followi
 Here’s a Node.js Roadmap with Explanation to guide you through learning Node.js and mastering backend development.
 
 
-2. Learn Node.js Core Concepts
-What is Node.js?
-Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to run JavaScript on the server side to build scalable and fast applications.
 
-Core Topics to Master:
-1. Node.js Basics
-Installing Node.js and Using Node REPL
-Running JavaScript Files with node
-The Node.js Event Loop
-Global Objects (__dirname, __filename, process)
-Understanding require() and ES Modules
-2. File System (fs) Module
-Reading and Writing Files (Sync vs. Async)
-Creating, Deleting, and Renaming Files
-Working with Directories
-3. Event-Driven Programming
-The events Module
-Creating and Listening to Events
-4. HTTP Module
-Creating a Simple HTTP Server
-Handling HTTP Requests and Responses
-Working with Query Parameters and POST Data
-5. Streams and Buffers
-What are Streams? (Readable, Writable, Duplex)
-Piping Streams (e.g., Reading a File and Sending It as a Response)
-Buffers and Binary Data
-6. Path and OS Modules
-Manipulating File Paths (path Module)
-Accessing System Information (os Module)
-7. Process Management
-Understanding process.argv for CLI Arguments
-Managing Environment Variables (process.env)
 3. Learn Package Management (npm and yarn)
 npm (Node Package Manager)
 Installing Global and Local Packages

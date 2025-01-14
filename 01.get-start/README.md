@@ -95,6 +95,8 @@ Learn how to use Node.js to create and manage RESTful APIs.
 - API Versioning:
 - Create APIs with version control (e.g., /api/v1/users).
 
+  <hr>
+
 ## 5. Learn Express.js Framework
 
 Express.js is the most popular web framework for Node.js.

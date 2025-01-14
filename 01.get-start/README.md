@@ -1,5 +1,26 @@
 # Node JS Introduction
 
+## 1. Prerequisites
+  
+Before diving into Node.js, ensure you have a basic understanding of the following:
+
+- JavaScript Basics
+- Variables (let, const)
+- Functions (Declaration, Arrow Functions, Callback Functions)
+- Promises and Async/Await
+- ES6+ Features (Destructuring, Spread/Rest, Template Literals)
+- Modules (import/export)
+- Basic Knowledge of Backend Development
+- HTTP Protocol (Methods like GET, POST, PUT, DELETE)
+- RESTful APIs
+- JSON format
+- Basic CLI (Command Line Interface) usage
+
+<hr>
+
+  
+
+
 - **Node.js LTS Releases:** The Node.js project has a Long Term Support (LTS) release schedule where new features are added to the project every six months, and every second release is designated as an LTS release. The LTS release is supported for 30 months from the date of its release. The current LTS release as of my knowledge cutoff date is Node.js 16.x.
 
 - **Performance Improvements:** The Node.js team continues to focus on improving performance by optimizing the V8 JavaScript engine, optimizing network I/O, and reducing memory usage.
@@ -23,20 +44,7 @@
 ```
 Here’s a Node.js Roadmap with Explanation to guide you through learning Node.js and mastering backend development.
 
-1. Prerequisites
-Before diving into Node.js, ensure you have a basic understanding of the following:
 
-JavaScript Basics
-Variables (let, const)
-Functions (Declaration, Arrow Functions, Callback Functions)
-Promises and Async/Await
-ES6+ Features (Destructuring, Spread/Rest, Template Literals)
-Modules (import/export)
-Basic Knowledge of Backend Development
-HTTP Protocol (Methods like GET, POST, PUT, DELETE)
-RESTful APIs
-JSON format
-Basic CLI (Command Line Interface) usage
 2. Learn Node.js Core Concepts
 What is Node.js?
 Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to run JavaScript on the server side to build scalable and fast applications.

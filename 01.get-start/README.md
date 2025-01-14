@@ -59,7 +59,7 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to 
 
   <hr>
 
-### 3. Learn Package Management (npm and yarn)
+## 3. Learn Package Management (npm and yarn)
 
 - npm (Node Package Manager)
 - Installing Global and Local Packages

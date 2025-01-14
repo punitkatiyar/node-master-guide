@@ -16,20 +16,6 @@
 
 **Install Node.js:** Go to the official Node.js website at https://nodejs.org and download the appropriate version for your operating system. Follow the installation instructions to install Node.js.
 
-> JavaScript And ES5 and ES6
-
-> TypeScript
-
-> Runtime Enviroment
-
-> NPM And Yarn
-
-> File Handling
-
-> Database
-
-> API
-
 <hr>
 
 ```

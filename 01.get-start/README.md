@@ -39,25 +39,27 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to 
 - The events Module
 - Creating and Listening to Events
 
-####4. HTTP Module
+#### 4. HTTP Module
 - Creating a Simple HTTP Server
 - Handling HTTP Requests and Responses
 - Working with Query Parameters and POST Data
 
-5. Streams and Buffers
-What are Streams? (Readable, Writable, Duplex)
-Piping Streams (e.g., Reading a File and Sending It as a Response)
-Buffers and Binary Data
-6. Path and OS Modules
-Manipulating File Paths (path Module)
-Accessing System Information (os Module)
-7. Process Management
-Understanding process.argv for CLI Arguments
-Managing Environment Variables (process.env)
+#### 5. Streams and Buffers
+- What are Streams? (Readable, Writable, Duplex)
+- Piping Streams (e.g., Reading a File and Sending It as a Response)
+- Buffers and Binary Data
+
+#### 6. Path and OS Modules
+- Manipulating File Paths (path Module)
+- Accessing System Information (os Module)
+
+#### 7. Process Management
+- Understanding process.argv for CLI Arguments
+- Managing Environment Variables (process.env)
 
   
 
-
+<!--
 - **Node.js LTS Releases:** The Node.js project has a Long Term Support (LTS) release schedule where new features are added to the project every six months, and every second release is designated as an LTS release. The LTS release is supported for 30 months from the date of its release. The current LTS release as of my knowledge cutoff date is Node.js 16.x.
 
 - **Performance Improvements:** The Node.js team continues to focus on improving performance by optimizing the V8 JavaScript engine, optimizing network I/O, and reducing memory usage.
@@ -73,7 +75,7 @@ Managing Environment Variables (process.env)
 - **WebAssembly:** The Node.js team is exploring ways to improve performance by integrating with WebAssembly, which is a low-level binary format that can be executed in modern web browsers.
 
 - **Better Support for Microservices:** Node.js is often used in microservice architectures, and the Node.js team is working on providing better support for microservices by improving the performance of the underlying infrastructure
-
+-->
 - nodemon
 
 - dotenv

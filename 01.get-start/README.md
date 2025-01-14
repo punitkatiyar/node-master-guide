@@ -57,6 +57,23 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to 
 - Understanding process.argv for CLI Arguments
 - Managing Environment Variables (process.env)
 
+  <hr>
+
+### 3. Learn Package Management (npm and yarn)
+
+- npm (Node Package Manager)
+- Installing Global and Local Packages
+- Using package.json and package-lock.json
+- Semantic Versioning (Major, Minor, Patch Versions)
+- Common npm Commands:
+- npm install (or npm i)
+- npm init
+- npm update
+- npm uninstall
+- yarn (Alternative to npm)
+- Installing yarn and its basic commands
+- Differences between yarn and npm
+
   
 
 <!--
@@ -85,19 +102,7 @@ Here’s a Node.js Roadmap with Explanation to guide you through learning Node.j
 
 
 
-3. Learn Package Management (npm and yarn)
-npm (Node Package Manager)
-Installing Global and Local Packages
-Using package.json and package-lock.json
-Semantic Versioning (Major, Minor, Patch Versions)
-Common npm Commands:
-npm install (or npm i)
-npm init
-npm update
-npm uninstall
-yarn (Alternative to npm)
-Installing yarn and its basic commands
-Differences between yarn and npm
+
 4. Build RESTful APIs
 Learn how to use Node.js to create and manage RESTful APIs.
 

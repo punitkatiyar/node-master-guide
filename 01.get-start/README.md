@@ -74,6 +74,29 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to 
 - Installing yarn and its basic commands
 - Differences between yarn and npm
 
+<hr>
+
+## 4. Build RESTful APIs
+
+Learn how to use Node.js to create and manage RESTful APIs.
+
+### Topics to Cover:
+
+#### Routing:
+- Create routes for different HTTP methods.
+- Use query parameters and path variables.
+
+#### Middleware:
+
+- What is middleware?
+- Custom middleware for request validation or logging.
+- Working with JSON:
+- Parsing and responding with JSON data.
+- API Versioning:
+- Create APIs with version control (e.g., /api/v1/users).
+
+
+
   
 
 <!--
@@ -103,24 +126,7 @@ Here’s a Node.js Roadmap with Explanation to guide you through learning Node.j
 
 
 
-4. Build RESTful APIs
-Learn how to use Node.js to create and manage RESTful APIs.
 
-Topics to Cover:
-Routing:
-
-Create routes for different HTTP methods.
-Use query parameters and path variables.
-Middleware:
-
-What is middleware?
-Custom middleware for request validation or logging.
-Working with JSON:
-
-Parsing and responding with JSON data.
-API Versioning:
-
-Create APIs with version control (e.g., /api/v1/users).
 5. Learn Express.js Framework
 Express.js is the most popular web framework for Node.js.
 

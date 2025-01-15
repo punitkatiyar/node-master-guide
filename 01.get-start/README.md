@@ -127,6 +127,30 @@ Express.js is the most popular web framework for Node.js.
 - Working with Static Files:
 - serve Static Files using express.static()
 
+  
+## 6. Learn Database Integration
+
+- SQL vs. NoSQL:
+- Choose a database based on your needs:
+- SQL Databases: MySQL, PostgreSQL
+- NoSQL Databases: MongoDB
+
+### Topics to Cover:
+
+Connecting to a Database:
+
+- Install and Configure Drivers (e.g., mongoose for MongoDB).
+
+### CRUD Operations:
+
+- Create, Read, Update, Delete Data.
+
+### Database Querying:
+
+- Write Complex Queries for SQL/NoSQL.
+- ORM (Object-Relational Mapping):
+- Learn ORMs like Sequelize (for SQL) or Mongoose (for MongoDB).
+
 
 
   
@@ -160,25 +184,6 @@ Here’s a Node.js Roadmap with Explanation to guide you through learning Node.j
 
 
 
-6. Learn Database Integration
-SQL vs. NoSQL:
-Choose a database based on your needs:
-
-SQL Databases: MySQL, PostgreSQL
-NoSQL Databases: MongoDB
-Topics to Cover:
-Connecting to a Database:
-
-Install and Configure Drivers (e.g., mongoose for MongoDB).
-CRUD Operations:
-
-Create, Read, Update, Delete Data.
-Database Querying:
-
-Write Complex Queries for SQL/NoSQL.
-ORM (Object-Relational Mapping):
-
-Learn ORMs like Sequelize (for SQL) or Mongoose (for MongoDB).
 7. Authentication and Authorization
 Learn how to secure your APIs.
 

@@ -1,4 +1,10 @@
-# Core Node Module 
+# Node.js Basics
+
+- Installing Node.js and Using Node REPL
+- Running JavaScript Files with node
+- The Node.js Event Loop
+- Global Objects (__dirname, __filename, process)
+- Understanding require() and ES Modules
 
 ## file system  fs module
 

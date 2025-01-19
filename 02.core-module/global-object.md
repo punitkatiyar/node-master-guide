@@ -108,6 +108,37 @@ exports.greet = () => {
 };
 ```
 
+## 12. Buffer
+
+Provides a way to handle binary data.
+
+```
+const buffer = Buffer.from("Hello, Buffer!");
+console.log(buffer.toString()); // Output: Hello, Buffer!
+```
+
+## 13. URL
+
+The URL class is part of the global object and provides utilities to parse and manipulate URLs.
+
+```
+const myURL = new URL("https://example.com?name=punit");
+console.log(myURL.searchParams.get("name")); // Output: punit
+```
+
+## 14. TextDecoder and TextEncoder
+
+Used for encoding and decoding text.
+
+```
+const encoder = new TextEncoder();
+const encoded = encoder.encode("Hello");
+
+const decoder = new TextDecoder();
+console.log(decoder.decode(encoded)); // Output: Hello
+```
+
+
 
 
 

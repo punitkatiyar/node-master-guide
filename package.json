@@ -1,0 +1,12 @@
+{
+  "name": "master-guide",
+  "version": "1.0.0",
+  "description": "<img src=\"./node.png\" bgcolor=\"teal\">",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

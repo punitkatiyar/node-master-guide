@@ -1,4 +1,8 @@
-# Node Module
+# Node fs Module
+
+The fs module in Node.js provides an API for interacting with the file system. It allows you to work with files and directories, including reading, writing, updating, deleting, and managing permissions.
+
+
 
 ## 1. step
 

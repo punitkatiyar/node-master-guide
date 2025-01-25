@@ -41,6 +41,23 @@ console.log(`Subtraction: ${subtract(5, 3)}`); // Output: Subtraction: 2
 console.log(`Value of PI: ${PI}`);             // Output: Value of PI: 3.14
 ```
 
+## 3. Using Default Exports
+A module can have a default export, which allows importing without curly braces.
+
+```
+export default function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+// Importing the default export
+import greet from './greeting.js';
+
+console.log(greet('Alice')); // Output: Hello, Alice!
+
+```
+
+
+
 
 
 

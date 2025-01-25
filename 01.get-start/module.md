@@ -57,6 +57,13 @@ console.log(greet('Punit')); // Output: Hello, Punit!
 
 ```
 
+## Benefits of Modules:
+
+- Separation of Concerns: Keeps code organized and modular.
+- Scoping: Avoids polluting the global namespace.
+- Reusability: Allows sharing common utilities across different parts of the app.
+- Lazy Loading: You can load modules only when needed, improving performance.
+
 
 
 

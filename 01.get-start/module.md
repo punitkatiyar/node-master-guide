@@ -16,8 +16,6 @@
 ## 1. Creating a Module:
 
 ```
-// mathUtils.js
-
 // Exporting a function
 export function add(a, b) {
   return a + b;
@@ -30,7 +28,6 @@ export function subtract(a, b) {
 
 // Exporting a constant
 export const PI = 3.14;
-
 ```
 
 ## 2. Importing the Module:
@@ -42,7 +39,6 @@ import { add, subtract, PI } from './mathUtils.js';
 console.log(`Addition: ${add(5, 3)}`);         // Output: Addition: 8
 console.log(`Subtraction: ${subtract(5, 3)}`); // Output: Subtraction: 2
 console.log(`Value of PI: ${PI}`);             // Output: Value of PI: 3.14
-
 ```
 
 

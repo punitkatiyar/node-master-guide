@@ -12,3 +12,50 @@
 
 - export: Used to expose functions, variables, or objects from a module.
 - import: Used to bring the exported parts of a module into another file.
+
+## 1. Creating a Module:
+
+```
+// mathUtils.js
+
+// Exporting a function
+export function add(a, b) {
+  return a + b;
+}
+
+// Exporting another function
+export function subtract(a, b) {
+  return a - b;
+}
+
+// Exporting a constant
+export const PI = 3.14;
+
+```
+
+## 2. Importing the Module:
+
+```
+// Importing specific functions and constants
+import { add, subtract, PI } from './mathUtils.js';
+
+console.log(`Addition: ${add(5, 3)}`);         // Output: Addition: 8
+console.log(`Subtraction: ${subtract(5, 3)}`); // Output: Subtraction: 2
+console.log(`Value of PI: ${PI}`);             // Output: Value of PI: 3.14
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

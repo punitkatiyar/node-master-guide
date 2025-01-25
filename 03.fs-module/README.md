@@ -1,6 +1,15 @@
 # Node Module
 
+<<<<<<< HEAD
+## 1. step
+=======
 **The fs module in Node.js provides an API for interacting with the file system. It allows you to work with files and directories, including reading, writing, updating, deleting, and managing permissions.**
+>>>>>>> fed0c4b6a770069fd977221d7b55a24bff58632a
+
+```
+const fs = require('fs');
+```
+
 
 
 

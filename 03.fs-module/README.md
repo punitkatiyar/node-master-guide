@@ -28,6 +28,7 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
 #### Synchronous:
 
 <hr>
+
 ```
 try {
   const data = fs.readFileSync('example.txt', 'utf8');

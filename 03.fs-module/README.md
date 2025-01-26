@@ -9,6 +9,7 @@ The fs module in Node.js provides an API for interacting with the file system. I
 ```
 const fs = require('fs');
 ```
+<hr>
 
 ### 1. Reading Files
 
@@ -26,6 +27,7 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
 
 #### Synchronous:
 
+<hr>
 ```
 try {
   const data = fs.readFileSync('example.txt', 'utf8');

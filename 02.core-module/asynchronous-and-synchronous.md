@@ -1,5 +1,5 @@
-
-# 1. Synchronous Operations
+# asynchronous and synchronous Operations
+## 1. Synchronous Operations
 
 - **Definition:** In synchronous operations, tasks are executed sequentially, meaning one task must complete before the next starts.
 - **Blocking:** A synchronous operation blocks the execution of further code until it completes.
@@ -13,7 +13,7 @@ console.log('File read complete.');
 
 ```
 
-# 2. Asynchronous Operations
+## 2. Asynchronous Operations
 
 - **Definition:** In asynchronous operations, tasks are initiated, and the program does not wait for them to complete before moving on to the next task.
 - **Non-blocking:** Asynchronous operations do not block the execution of the code.
@@ -31,7 +31,7 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
 console.log('File read initiated.');
 ```
 
-## Example: Synchronous vs Asynchronous
+### Example: Synchronous vs Asynchronous
 **Imagine you're at a coffee shop:**
 
 - Synchronous: You place your order, and the barista makes your coffee while you wait at the counter. No one else is served until your coffee is done.

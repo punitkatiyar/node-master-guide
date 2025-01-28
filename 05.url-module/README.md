@@ -8,3 +8,7 @@
 - Pathname: The path on the server pointing to the requested resource, e.g., /articles/index.html.
 - Query String: Additional parameters sent to the server, e.g., ?key=value.
 - Fragment: Part of the URL after a #, which is often used for internal page navigation (not sent to the server).
+
+  ## setup url package
+
+> npm i url

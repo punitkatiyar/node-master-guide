@@ -50,6 +50,36 @@ async function getData() {
 getData();
 ```
 
+## 3. Handling Errors in Async/Await
+
+Just like .catch() in Promises, we can handle errors using try...catch in async functions.
+
+```
+function fetchData(success) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (success) {
+                resolve("Data received!");
+            } else {
+                reject("Failed to fetch data!");
+            }
+        }, 2000);
+    });
+}
+
+async function getData() {
+    try {
+        let data = await fetchData(false); // Pass false to trigger rejection
+        console.log(data);
+    } catch (error) {
+        console.log("Error:", error);
+    }
+}
+
+getData();
+
+```
+
 
 
 

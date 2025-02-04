@@ -80,6 +80,25 @@ getData();
 
 ```
 
+4. Fetch API with Async/Await
+
+Let's fetch data from a real API using fetch()
+
+```
+async function fetchUsers() {
+    try {
+        let response = await fetch("https://jsonplaceholder.typicode.com/users");
+        let users = await response.json(); // Convert to JSON
+        console.log(users);
+    } catch (error) {
+        console.log("Error fetching users:", error);
+    }
+}
+
+fetchUsers();
+```
+
+
 
 
 

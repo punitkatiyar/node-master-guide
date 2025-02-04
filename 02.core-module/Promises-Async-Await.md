@@ -22,9 +22,36 @@ A Promise represents a value that may be available now, in the future, or never.
     }, 2000);
 });
 ```
-
 ```
 myPromise
 .then((message) => console.log(message))  // If resolved
 .catch((error) => console.log(error));   // If rejected
 ```
+
+## 2. Async/Await
+
+Async/Await is a modern and cleaner way to handle promises in JavaScript.
+
+- async makes a function return a promise.
+- await pauses the execution until the promise is resolved.
+
+```
+function fetchData() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Fetched Data!");
+        }, 2000);
+    });
+}
+async function getData() {
+    console.log("Fetching...");
+    let data = await fetchData(); // Waits for fetchData() to complete
+    console.log(data);
+}
+getData();
+```
+
+
+
+
+

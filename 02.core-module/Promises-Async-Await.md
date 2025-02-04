@@ -10,8 +10,8 @@ A Promise represents a value that may be available now, in the future, or never.
 - Fulfilled → The operation was completed successfully.
 - Rejected → The operation failed.
 
-  ```
-  const myPromise = new Promise((resolve, reject) => {
+```
+const myPromise = new Promise((resolve, reject) => {
     setTimeout(() => {
         let success = true;
         if (success) {
@@ -21,8 +21,6 @@ A Promise represents a value that may be available now, in the future, or never.
         }
     }, 2000);
 });
-```
-```
 myPromise
 .then((message) => console.log(message))  // If resolved
 .catch((error) => console.log(error));   // If rejected
@@ -43,6 +41,7 @@ function fetchData() {
         }, 2000);
     });
 }
+
 async function getData() {
     console.log("Fetching...");
     let data = await fetchData(); // Waits for fetchData() to complete

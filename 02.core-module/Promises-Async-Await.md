@@ -21,9 +21,10 @@ A Promise represents a value that may be available now, in the future, or never.
         }
     }, 2000);
 });
+```
 
+```
 myPromise
-    .then((message) => console.log(message))  // If resolved
-    .catch((error) => console.log(error));   // If rejected
-
-  ```
+.then((message) => console.log(message))  // If resolved
+.catch((error) => console.log(error));   // If rejected
+```

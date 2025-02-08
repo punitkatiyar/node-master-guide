@@ -1,15 +1,19 @@
-Event-Driven Programming (EDP) Explained
+# Event-Driven Programming (EDP) Explained
+
 Event-Driven Programming (EDP) is a programming paradigm where the flow of a program is determined by events such as user interactions, sensor outputs, or system signals. Instead of executing in a predefined order, the program waits for and responds to events asynchronously.
 
-📌 Key Concepts of Event-Driven Programming
+## 📌 Key Concepts of Event-Driven Programming
+
 1. Events
 An event is an action or occurrence detected by a program. Examples include:
-✅ User clicks a button
-✅ A key is pressed on a keyboard
-✅ A file is opened
-✅ A network request is received
+
+- ✅ User clicks a button
+- ✅ A key is pressed on a keyboard
+- ✅ A file is opened
+- ✅ A network request is received
 
 2. Event Listeners (Handlers)
+   
 An event listener (or event handler) is a function that runs in response to a specific event.
 
 It listens for an event and executes callback functions when the event occurs.

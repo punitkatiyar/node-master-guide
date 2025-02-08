@@ -12,12 +12,6 @@
 
 <hr>
 
-## Start Node Js And ES6
-
-**Install Node.js:** Go to the official Node.js website at https://nodejs.org and download the appropriate version for your operating system. Follow the installation instructions to install Node.js.
-
-<hr>
-
 ## 1. Prerequisites
   
 Before diving into Node.js, ensure you have a basic understanding of the following:
@@ -33,23 +27,6 @@ Before diving into Node.js, ensure you have a basic understanding of the followi
 - RESTful APIs
 - JSON format
 - Basic CLI (Command Line Interface) usage
-
-```
-const http = require('http');
- 
-const hostname = '127.0.0.1';
-const port = 3000;
- 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
-});
- 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
-```
 
 ## NPM Solution
 

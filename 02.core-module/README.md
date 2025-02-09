@@ -29,23 +29,24 @@ A Node module is a reusable block of code that can be included in a Node.js appl
 
 ## Types of Node Modules:
 
-### Core Modules:
+### 1.local Modules:
+
+These are modules you create in your project to organize your code.
+
+### 2.Built-in Modules:
 These are built into Node.js and do not require installation. Examples include:
 
 - fs (File System) for file operations
 - http for creating servers
 - path for handling file paths
 
-### Third-party Modules:
+### 3.Third-party Modules:
 These are modules developed by the community and shared via npm. Examples include:
 
 - express (for building web applications)
 - lodash (for utility functions)
 - mongoose (for interacting with MongoDB)
 
-### Custom Modules:
 
-These are modules you create in your project to organize your code.
 
-https://github.com/punitkatiyar/node-master-guide/blob/main/01.get-start/module.md 
 

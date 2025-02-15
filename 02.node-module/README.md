@@ -33,6 +33,23 @@ A Node module is a reusable block of code that can be included in a Node.js appl
 
 These are modules you create in your project to organize your code.
 
+- Modules Exports
+
+- Module Scope
+
+- Module wrapper
+
+- Module Caching
+
+- Import Exports Patterns
+
+- Module.Exports vs export
+
+- ES6 Module
+
+- Importing JSON and watch mode
+
+
 ### 2. Built-in Modules:
 These are built into Node.js and do not require installation. Examples include:
 

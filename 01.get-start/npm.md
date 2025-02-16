@@ -12,6 +12,20 @@ NPM is the default package manager for Node.js. It allows developers to install,
 
 - upper-case
 
+```
+// const localModule = require('./path-to-module');
+
+const upperCase = require("upper-case").upperCase;
+
+function greet(name) {
+    console.log(upperCase(`Hello ${name}, welcome to Techunitbook `));
+}
+
+greet("Tech Punit");
+
+module.exports = greet;
+```
+
 -  lodash
 
 -  nodemon

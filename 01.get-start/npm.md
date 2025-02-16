@@ -4,10 +4,16 @@ NPM is the default package manager for Node.js. It allows developers to install,
 
 > https://www.npmjs.com/
 
-## Create a package
+## Create A package
 
 > npm init or npm init -y
 
- > npm i upper-case
+## Install Package [ npm i package-name ] 
+
+- upper-case
+
+-  lodash
+
+-  nodemon
  
 

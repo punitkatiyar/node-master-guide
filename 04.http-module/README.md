@@ -1,5 +1,42 @@
 # http module
 
+## create a serve
+
+```
+const http=require('http');
+const server=http.createServer((req,res)=>{
+     // res.writeHead(200);
+     res.writeHead(200,{"Content-Type":"text/plain"});
+     res.end("hello worlds !!");    
+});
+server.listen(3000,()=>{
+    console.log("Server is running");
+})
+```
+
+## http with json data
+
+```
+const http=require('http');
+const fs=require('fs');
+const server=http.createServer((req,res)=>{
+    const techs={
+        t1:"html",
+        t2:"css",
+        t3:"js"
+    }
+     res.writeHead(200,{"Content-Type":"application/json"});
+     res.end(JSON.stringify(techs));    
+});
+```
+
+
+
+
+
+
+
+
 ## Synchronous Example
 
 ```

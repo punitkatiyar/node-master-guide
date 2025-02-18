@@ -34,7 +34,6 @@ const server=http.createServer((req,res)=>{
 ```
 const http=require('http');
 const server=http.createServer((req,res)=>{
-    
     res.writeHead(200,{"Content-Type":"text/html"});
     res.end("<h1>hello worlds !!</h1>");
 });
@@ -52,6 +51,19 @@ const server=http.createServer((req,res)=>{
 });
 ```
 
+## http pass the data to html file
+
+```
+const http=require('http');
+const fs=require('fs');
+const server=http.createServer((req,res)=>{
+    const name="Ducat India";
+    res.writeHead(200,{"Content-Type":"text/html"});
+    let  html=fs.readFileSync('./index.html',"utf-8");
+    html=html.replace("{{name}}",name)
+    res.end(html);
+});
+```
 
 
 
@@ -61,6 +73,7 @@ const server=http.createServer((req,res)=>{
 
 
 
+<!--
 
 
 ## Synchronous Example
@@ -134,3 +147,5 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+
+-->

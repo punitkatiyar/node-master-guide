@@ -4,7 +4,7 @@ Event-Driven Programming (EDP) is a programming paradigm where the flow of a pro
 
 ## 📌 Key Concepts of Event-Driven Programming
 
-1. Events
+## 1. Events
 An event is an action or occurrence detected by a program. Examples include:
 
 - ✅ User clicks a button
@@ -12,38 +12,44 @@ An event is an action or occurrence detected by a program. Examples include:
 - ✅ A file is opened
 - ✅ A network request is received
 
-2. Event Listeners (Handlers)
+## 2. Event Listeners (Handlers)
    
 An event listener (or event handler) is a function that runs in response to a specific event.
 
 It listens for an event and executes callback functions when the event occurs.
+
 Example (JavaScript):
 
-javascript
-Copy
-Edit
+```
 document.getElementById("myButton").addEventListener("click", function() {
     alert("Button Clicked!");
 });
+```
+
 📌 Explanation: When the button (myButton) is clicked, the function triggers an alert.
 
-3. Event Loop
+## 3. Event Loop
+
 The event loop constantly checks for new events and processes them asynchronously.
 Used in languages like JavaScript, Python (asyncio), and Node.js to handle multiple tasks efficiently.
-4. Event Queue
+
+## 4. Event Queue
+
 Events are stored in a queue and processed in order (FIFO).
+
 Example: Multiple button clicks are added to the queue and processed one by one.
+
 📌 Event-Driven Programming in Different Languages
 1. JavaScript (Frontend & Backend - Node.js)
 JavaScript is event-driven by nature, making it perfect for UI interactions and real-time applications.
-Example:
 
-javascript
-Copy
-Edit
+Example:
+```
 document.addEventListener("mousemove", function(event) {
     console.log(`Mouse moved to: ${event.clientX}, ${event.clientY}`);
 });
+```
+
 2. Python (Using asyncio or tkinter)
 Python uses event-driven programming for GUI apps, network applications, and async programming.
 Example (Tkinter GUI):

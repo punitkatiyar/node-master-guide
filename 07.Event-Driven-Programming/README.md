@@ -50,68 +50,14 @@ document.addEventListener("mousemove", function(event) {
 });
 ```
 
-2. Python (Using asyncio or tkinter)
-Python uses event-driven programming for GUI apps, network applications, and async programming.
-Example (Tkinter GUI):
-
-python
-Copy
-Edit
-import tkinter as tk
-
-def on_click():
-    print("Button Clicked!")
-
-root = tk.Tk()
-btn = tk.Button(root, text="Click Me", command=on_click)
-btn.pack()
-root.mainloop()
-3. Java (Swing & Event Listeners)
-Java's GUI frameworks (Swing, JavaFX) use event-driven programming.
-Example (Java Swing):
-
-java
-Copy
-Edit
-import javax.swing.*;
-import java.awt.event.*;
-
-public class EventExample {
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Event Example");
-        JButton button = new JButton("Click Me");
-
-        button.addActionListener(e -> System.out.println("Button Clicked!"));
-        
-        frame.add(button);
-        frame.setSize(200, 200);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-    }
-}
-📌 Where is Event-Driven Programming Used?
-✅ Graphical User Interfaces (GUI) – Windows, Android, iOS applications
-✅ Web Development – JavaScript (handling user clicks, AJAX, etc.)
-✅ Gaming – Player input, AI events, physics simulations
-✅ IoT (Internet of Things) – Sensor data, hardware interrupts
-✅ Networking & Servers – Node.js, Python asyncio, WebSockets
-
-📌 Benefits of Event-Driven Programming
-✔ Asynchronous Execution – Handles multiple events without blocking the main thread.
-✔ Improved Responsiveness – Essential for UI/UX (e.g., animations, real-time updates).
-✔ Scalability – Used in high-performance web servers (e.g., Node.js) to handle many connections.
-
-Would you like a more advanced example, such as how event-driven programming works in Node.js or Python async frameworks? 🚀
 
 
 
 
 
 
-
-You said:
 Event-Driven Programming in node with example and explain 
-ChatGPT said:
+
 Event-Driven Programming in Node.js
 Node.js is event-driven by design, meaning it efficiently handles asynchronous operations using events and callbacks. The EventEmitter module in Node.js allows developers to create, listen to, and handle custom events.
 
@@ -120,11 +66,10 @@ EventEmitter Class – Built-in module for handling events.
 Emit Events – Trigger custom events.
 Listen to Events – Execute functions when events occur.
 Asynchronous Execution – Handles multiple tasks efficiently without blocking the main thread.
+
 📌 Example: Creating and Using Events in Node.js
 Step 1: Import the events module
-javascript
-Copy
-Edit
+
 const EventEmitter = require('events');  // Import the EventEmitter class
 const eventEmitter = new EventEmitter(); // Create an instance
 Step 2: Define an Event Listener
@@ -188,9 +133,7 @@ We listen to three events: start, data_received, and end.
 The events are triggered sequentially using emit(), executing their respective listeners.
 📌 Using Event-Driven Programming in a Real-World Scenario
 Example: Creating a Simple HTTP Server with Event Handling
-javascript
-Copy
-Edit
+```
 const http = require('http');
 const EventEmitter = require('events');
 
@@ -212,6 +155,7 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
     console.log('Server running at http://localhost:3000/');
 });
+```
 📌 How it Works:
 
 An HTTP server is created using http.createServer().

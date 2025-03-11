@@ -1,4 +1,4 @@
-# Piping Streams (Efficient Data Transfer)
+# Piping Streams ( Efficient Data Transfer )
 
 Streams can be piped to pass data from one stream to another without storing it in memory.
 

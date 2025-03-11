@@ -48,6 +48,8 @@ eventEmitter.on('greet', (name) => {
 eventEmitter.emit('greet', 'Alice');
 ```
 
+<!--
+
 ### Explanation:
 
 We create an instance of EventEmitter.
@@ -63,3 +65,4 @@ Error Handling (e.g., emitting and catching error events)
 ### Conclusion
 
 Events are a fundamental part of Node.js, enabling efficient, non-blocking, and scalable application development. By leveraging the EventEmitter class, developers can build applications that handle multiple operations concurrently, making Node.js a preferred choice for modern web development.
+-->

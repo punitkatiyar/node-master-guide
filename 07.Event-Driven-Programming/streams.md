@@ -10,6 +10,7 @@ Streams are a way to handle data efficiently in chunks, instead of loading entir
 
 - Transform Streams → Modify data while streaming (e.g., compression)
 
+## Example: Reading a File Using Streams
 ```
 const fs = require('fs');
 
@@ -26,4 +27,21 @@ readableStream.on('error', (err) => {
     console.error('Error:', err);
 });
 
+```
+
+## Example: Writing to a File Using Streams
+
+```
+const fs = require('fs');
+
+// Create a writable stream
+const writableStream = fs.createWriteStream('output.txt');
+
+// Write data in chunks
+writableStream.write('Hello, this is a test!\n');
+writableStream.write('Streaming makes Node.js powerful.\n');
+
+// Close the stream
+writableStream.end();
+console.log('File writing completed.');
 ```

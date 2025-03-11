@@ -48,6 +48,17 @@ eventEmitter.on('greet', (name) => {
 eventEmitter.emit('greet', 'Alice');
 ```
 
+## Key Methods in EventEmitter
+- .on(event, listener) → Attach a listener to an event
+
+- .emit(event, args...) → Trigger an event
+
+- .once(event, listener) → Listen for an event only once
+
+- .removeListener(event, listener) → Remove a specific listener
+
+- .removeAllListeners(event) → Remove all listeners
+
 <!--
 
 ### Explanation:

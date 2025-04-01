@@ -1,22 +1,21 @@
 # Node JS Introduction
 
-## 1. Prerequisites
-  
-Before diving into Node.js, ensure you have a basic understanding of the following:
+## 1. Learn Package Management (npm and yarn)
 
-- JavaScript Basics
-- Variables (let, const)
-- Functions (Declaration, Arrow Functions, Callback Functions)
-- Promises and Async/Await
-- ES6+ Features (Destructuring, Spread/Rest, Template Literals)
-- Modules (import/export)
-- Basic Knowledge of Backend Development
-- HTTP Protocol (Methods like GET, POST, PUT, DELETE)
-- RESTful APIs
-- JSON format
-- Basic CLI (Command Line Interface) usage
+- npm (Node Package Manager)
+- Installing Global and Local Packages
+- Using package.json and package-lock.json
+- Semantic Versioning (Major, Minor, Patch Versions)
+- Common npm Commands:
+- npm install (or npm i)
+- npm init
+- npm update
+- npm uninstall
+- yarn (Alternative to npm)
+- Installing yarn and its basic commands
+- Differences between yarn and npm
 
-<hr>
+
 
 ## 2. Learn Node.js Core Concepts
 
@@ -59,22 +58,7 @@ Node.js is a JavaScript runtime built on Chrome’s V8 engine. It allows you to 
 
   <hr>
 
-## 3. Learn Package Management (npm and yarn)
 
-- npm (Node Package Manager)
-- Installing Global and Local Packages
-- Using package.json and package-lock.json
-- Semantic Versioning (Major, Minor, Patch Versions)
-- Common npm Commands:
-- npm install (or npm i)
-- npm init
-- npm update
-- npm uninstall
-- yarn (Alternative to npm)
-- Installing yarn and its basic commands
-- Differences between yarn and npm
-
-<hr>
 
 ## 4. Build RESTful APIs
 

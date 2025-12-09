@@ -1,4 +1,35 @@
-# http module
+# NODE http module
+
+**The HTTP module in Node.js allows you to create web servers, handle requests, and send responses.
+It is one of the core (built-in) modules, so you don’t need to install anything.**
+
+## What Is the HTTP Module?
+
+> Create a server
+
+> Listen for incoming requests
+
+> Send responses
+
+> Work with HTTP methods (GET, POST, PUT, DELETE, etc.)
+
+> Work with status codes and headers
+
+## How the HTTP Module Works
+
+> Client sends HTTP Request (URL, method, headers, body)
+
+> Node.js server receives request via callback req
+
+> You process the request
+
+> Server sends HTTP Response via res
+
+> Browser receives result
+
+
+
+
 
 ## create a server
 
@@ -149,3 +180,4 @@ server.listen(port, hostname, () => {
 ```
 
 -->
+

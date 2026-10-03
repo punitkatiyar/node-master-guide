@@ -1,5 +1,3 @@
-<img src="./node.png" bgcolor="teal">
-
 # 🥇 Node Js Master Guide  
 
 **Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that allows developers to build scalable, high-performance applications. It was created in 2009 by Ryan Dahl and has since become a popular platform for building server-side applications and network applications.**
@@ -7,7 +5,6 @@
 **Node.js is built on the V8 JavaScript engine, the same engine used by the Google Chrome browser. It uses an event-driven, non-blocking I/O model, which makes it efficient and lightweight. This allows developers to build applications that can handle a large number of concurrent connections with minimal overhead.**
 
 ## JavaScript Environment & Execution
-
 ```
        JavaScript Runtime
               │
@@ -36,6 +33,28 @@ Before diving into Node.js, ensure you have a basic understanding of the followi
 - RESTful APIs
 - JSON format
 - Basic CLI (Command Line Interface) usage
+
+## Node Architecture
+
+```
+             Node.js Application
+                     |
+              JavaScript Code
+                     |
+                  V8 Engine
+                     |
+              Node.js Runtime
+                     |
+        +------------+------------+
+        |                         |
+   Event Loop              Node APIs
+        |                         |
+        +------------+------------+
+                     |
+                OS / Network
+                     |
+              File / DB / HTTP
+```
 
 ## NPM Solution
 

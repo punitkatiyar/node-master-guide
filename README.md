@@ -34,39 +34,6 @@ Before diving into Node.js, ensure you have a basic understanding of the followi
 - JSON format
 - Basic CLI (Command Line Interface) usage
 
-
-
-## JavaScript Fundamentals
-- Variables
-- Data types
-- Operators
-- Conditional statements
-- Loops
-- Functions
-- Arrow functions
-- Arrays
-- Objects
-- Destructuring
-- Spread/rest operators
-- Template literals
-
-## Advanced JavaScript Required for Node.js
-- Scope
-- Closures
-- Higher-order functions
-- Callbacks
-- Promises
-- async/await
-- Error handling
-- ES Modules
-- CommonJS
-- JSON
-- Classes
-- this
-- Event handling
-
-
-
 ## Node Architecture
 
 ```

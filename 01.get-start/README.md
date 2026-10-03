@@ -1,4 +1,35 @@
-# Training Structure
+## Node Prerequisites
+
+## JavaScript Fundamentals
+- Variables
+- Data types
+- Operators
+- Conditional statements
+- Loops
+- Functions
+- Arrow functions
+- Arrays
+- Objects
+- Destructuring
+- Spread/rest operators
+- Template literals
+
+## Advanced JavaScript Required for Node.js
+- Scope
+- Closures
+- Higher-order functions
+- Callbacks
+- Promises
+- async/await
+- Error handling
+- ES Modules
+- CommonJS
+- JSON
+- Classes
+- this
+- Event handling
+
+## Training Structure
 
 | Phase | Module | Level | Suggested Duration |
 |---|---|---|---:|

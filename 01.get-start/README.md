@@ -1,4 +1,23 @@
-# Node JS Introduction
+# Training Structure
+
+| Phase | Module | Level | Suggested Duration |
+|---|---|---|---:|
+| 1 | JavaScript & Node.js Foundations | Beginner | 2 days |
+| 2 | Node.js Fundamentals | Beginner | 3 days |
+| 3 | Modules, NPM & File System | Beginner | 3 days |
+| 4 | Asynchronous Programming | Beginner–Intermediate | 3 days |
+| 5 | HTTP & REST API Development | Intermediate | 4 days |
+| 6 | Express.js | Intermediate | 4 days |
+| 7 | Database Integration | Intermediate | 5 days |
+| 8 | Authentication & Authorization | Intermediate | 4 days |
+| 9 | Advanced Node.js | Advanced | 5 days |
+| 10 | Testing & Code Quality | Advanced | 3 days |
+| 11 | Security | Advanced | 3 days |
+| 12 | Performance & Scalability | Advanced | 4 days |
+| 13 | Deployment | Advanced | 4 days |
+| 14 | Capstone Project | Corporate | 7–10 days |
+
+
 
 ## 1. Learn Package Management (npm and yarn)
 

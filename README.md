@@ -20,22 +20,8 @@
               │
         Callback Queue
 ```
-## 1. Prerequisites
-  
-Before diving into Node.js, ensure you have a basic understanding of the following:
-
-- Functions (Declaration, Arrow Functions, Callback Functions)
-- Promises and Async/Await
-- ES6+ Features (Destructuring, Spread/Rest, Template Literals)
-- Modules (import/export)
-- Basic Knowledge of Backend Development
-- HTTP Protocol (Methods like GET, POST, PUT, DELETE)
-- RESTful APIs
-- JSON format
-- Basic CLI (Command Line Interface) usage
 
 ## Node Architecture
-
 ```
              Node.js Application
                      |
